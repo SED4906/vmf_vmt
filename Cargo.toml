@@ -1,0 +1,16 @@
+[package]
+name = "vmf_vmt"
+version = "0.1.0"
+edition = "2021"
+description = "Valve Map Format and Valve Material parsing/building library."
+license = "0BSD"
+
+[dependencies]
+nom = "7"
+
+[dev-dependencies]
+env_logger = "0.11.3"
+log = "0.4.21"
+
+[[example]]
+name = "redump"
